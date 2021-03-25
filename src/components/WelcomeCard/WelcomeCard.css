@@ -1,0 +1,35 @@
+.welcome_card {
+    width: 75%;
+    height: 30%;
+    background-color: #1A1E33;
+    box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    border: #48AED7 solid 1px;
+}
+
+
+
+.image_welcome{
+    width: 25%;
+    margin-left: 8%;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+.welcome_para{
+    text-indent: 35px;
+    padding: 30px;
+    color: #fff;
+}
+
+.welcome_title{
+    text-align: center;
+    color: #48AED7;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 7px;
+}

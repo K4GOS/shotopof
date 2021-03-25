@@ -1,0 +1,58 @@
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.card_specif{
+    width: 400px;
+    background-color: #1A1E33;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px -1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 5px 0px rgba(0,0,0,0.75);
+    border: #48AED7 solid 1px;
+}
+
+.card_title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: #48AED7;
+    text-align: center;
+}
+
+.link_card{
+    border: #48AED7 solid 1px;
+    padding: 10px;
+    background-color: #2E3557;
+    color: #fff;
+    text-align: center;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
+.link_card:hover{
+    background-color: #474f77;
+}
+
+.para{
+    color: #fff;
+    text-align: center;
+}
+
+button:focus{
+    outline: none;
+}
+
+.icon_card{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}

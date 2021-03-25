@@ -1,0 +1,35 @@
+.carte {
+  background-color: #1a1e33;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  width: 360px;
+  padding: 50px;
+  font-size: 15px;
+  line-height: 1.7;
+  border-radius: 10px;
+  box-shadow: 1px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid #4ab9e0;
+}
+
+.name {
+  font-size: 22px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.list_of_members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.image_avatar {
+  width: 150px;
+  border-radius: 50%;
+}

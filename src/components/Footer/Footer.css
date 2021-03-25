@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #1a1e33;
+  height: 150px;
+  border-top: #5ed3f3 1px solid;
+}
+
+.para_footer {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.first_para_footer {
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-top: 20px;
+}
+
+.heart {
+  color: #db404f;
+  padding: 3px;
+}
+
+.react {
+  color: #5ed3f3;
+  padding-left: 5px;
+}
