@@ -11,7 +11,7 @@ export const WelcomeCard = () => {
   return (
     <div className="welcome_card">
       <img
-        src="images/photograph.png"
+        src="images/camera.png"
         alt="logo shotopof"
         className="image_welcome"
         data-aos="zoom-in"

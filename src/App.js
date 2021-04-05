@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Documentation } from "./Pages/Documentation/Documentation";
 import { Homepage } from "./Pages/Homepage/Homepage";
 import { Members } from "./Pages/Members/Members";
+import { Presentation } from "./Pages/Presentation/Presentation";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Homepage} />
+        <Route exact path="/presentation" component={Presentation} />
         <Route exact path="/documentation" component={Documentation} />
         <Route exact path="/members" component={Members} />
       </Switch>

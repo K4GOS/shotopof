@@ -1,9 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 export const Documentation = () => {
   return (
-    <div style={{ height: 1500 }}>
-      <p>La doc</p>
-    </div>
+    <Fragment>
+      <div className="liste-container">
+        <h2 className="card_title big">Documentation</h2>
+      </div>
+      <div className="liste-container"></div>
+    </Fragment>
   );
 };

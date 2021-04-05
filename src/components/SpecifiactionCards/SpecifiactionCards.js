@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUsers,
-  faBookReader,
+  faDownload,
   faClipboardList,
-  faSortAmountUp,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const SpecificationsCards = () => {
@@ -22,11 +22,12 @@ export const SpecificationsCards = () => {
         <center>
           <FontAwesomeIcon icon={faClipboardList} className="icon_card" />
         </center>
-        <h1 className="card_title">Presentation projet</h1>
+        <h1 className="card_title">Présentation projet</h1>
         <p className="para">
-          Ce projet a été réalisé dans le cadre du projet de C du S4
+          Présentation du projet avec chronologie, librairies utilisées,
+          problèmes rencontrés, solutions envisagées et objectifs à réaliser
         </p>
-        <Link to="/members">
+        <Link to="/presentation">
           <center>
             <button className="link_card">Présentation</button>
           </center>
@@ -35,16 +36,16 @@ export const SpecificationsCards = () => {
 
       <div className="card_specif" data-aos="fade-left">
         <center>
-          <FontAwesomeIcon icon={faBookReader} className="icon_card" />
+          <FontAwesomeIcon icon={faDownload} className="icon_card" />
         </center>
-        <h1 className="card_title">Librairies externes</h1>
+        <h1 className="card_title">Download du projet</h1>
         <p className="para">
-          Voici les librairies auxquelles nous avons eu recours pour mener à
-          bien notre logiciel de retouche photo en C
+          Voici le lien de téléchargement du projet intégrale ainsi que sa
+          version lite
         </p>
         <Link to="/members">
           <center>
-            <button className="link_card">Librairies utilisées</button>
+            <button className="link_card">Download du projet</button>
           </center>
         </Link>
       </div>
@@ -67,16 +68,16 @@ export const SpecificationsCards = () => {
 
       <div className="card_specif" data-aos="fade-left">
         <center>
-          <FontAwesomeIcon icon={faSortAmountUp} className="icon_card" />
+          <FontAwesomeIcon icon={faBook} className="icon_card" />
         </center>
-        <h1 className="card_title">Avancement du projet</h1>
+        <h1 className="card_title">Documentation du projet</h1>
         <p className="para">
-          Vous pouvez accéder à l'avancement du projet en cliquant sur ce
+          Vous pouvez accéder à la documentation du projet en cliquant sur ce
           boutton
         </p>
-        <Link to="/members">
+        <Link to="/documentation">
           <center>
-            <button className="link_card">Voir l'avancement</button>
+            <button className="link_card">Voir la documentation</button>
           </center>
         </Link>
       </div>
