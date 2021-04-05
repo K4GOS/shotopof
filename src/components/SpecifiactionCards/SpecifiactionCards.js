@@ -40,14 +40,13 @@ export const SpecificationsCards = () => {
         </center>
         <h1 className="card_title">Téléchargement du projet</h1>
         <p className="para">
-          Voici le lien de téléchargement du projet intégrale ainsi que sa
-          version lite
+          Voici le lien de téléchargement du projet en utilisant GitHub
         </p>
-        <Link to="/members">
+        <a href="https://github.com/Tristanh80/CRIT" target="blank">
           <center>
             <button className="link_card">Download du projet</button>
           </center>
-        </Link>
+        </a>
       </div>
 
       <div className="card_specif" data-aos="fade-right">
