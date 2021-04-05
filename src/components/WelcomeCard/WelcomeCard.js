@@ -19,17 +19,10 @@ export const WelcomeCard = () => {
       <div>
         <h1 className="welcome_title">Notre projet de S4</h1>
         <p className="welcome_para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga
-          itaque consequuntur dolorem enim dolorum corporis perferendis ducimus?
-          Maiores temporibus accusamus ea repellendus, cum ipsum nobis eius
-          omnis laudantium eligendi in cumque reiciendis ducimus delectus
-          suscipit modi labore, amet quod. Commodi aut recusandae corrupti, esse
-          animi porro ex enim ipsum explicabo, consequatur velit dolore soluta
-          odio, facere magni! Ab, consectetur? Culpa ullam exercitationem et,
-          ipsa temporibus explicabo sapiente nemo, incidunt enim at dolores
-          atque obcaecati similique sequi sed rem tenetur? Magni,
-          necessitatibus? Ad excepturi at amet libero molestiae error minus,
-          veritatis molestias qui rem velit illo sequi in voluptatibus neque.
+          Notre idée est de réaliser un programme utilitaire similaire à
+          Photoshop. Ceprogramme incorporerait notamment toutes les
+          fonctionnalités basiques d’un logiciel de traitement d’image comme la
+          mise en noir et blanc, la rotation d’imageset plein d’autres.
         </p>
       </div>
     </div>

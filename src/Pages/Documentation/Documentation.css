@@ -1,0 +1,33 @@
+.base_image {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  margin: 30px;
+}
+
+.flex_image {
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+
+.rot {
+  width: 140px;
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+
+.function {
+  color: #48aed7;
+}
+
+.blue {
+  background-color: #48aed7;
+  height: 1px;
+  border-radius: 10px;
+  color: #48aed7;
+  width: 90%;
+}

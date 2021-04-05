@@ -38,7 +38,7 @@ export const SpecificationsCards = () => {
         <center>
           <FontAwesomeIcon icon={faDownload} className="icon_card" />
         </center>
-        <h1 className="card_title">Download du projet</h1>
+        <h1 className="card_title">Téléchargement du projet</h1>
         <p className="para">
           Voici le lien de téléchargement du projet intégrale ainsi que sa
           version lite

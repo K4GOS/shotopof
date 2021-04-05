@@ -22,7 +22,7 @@ export const Presentation = () => {
           <li className="item">
             <a href="#chrono" className="anchor_link">
               <FontAwesomeIcon icon={faStopwatch} className="logo-liste" />
-              Chronologie du projet{" "}
+              Chronologie de réalisation{" "}
               <FontAwesomeIcon icon={faChevronDown} className="logo-liste" />
             </a>
           </li>
@@ -59,43 +59,16 @@ export const Presentation = () => {
       <div className="liste-container" id="chrono">
         <h3>
           <FontAwesomeIcon icon={faStopwatch} className="logo-liste" />
-          Chronologie du projet
+          Chronologie de réalisation
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem id
-          obcaecati dolore esse voluptates sint similique tenetur possimus
-          consequuntur perferendis distinctio officiis temporibus incidunt culpa
-          vel, dolor amet harum odit nesciunt pariatur numquam qui vero?
-          Incidunt delectus velit beatae rerum molestiae, nostrum voluptates
-          itaque adipisci sapiente eius a, error blanditiis saepe reprehenderit.
-          Quidem quas et aspernatur facilis minus vero, velit assumenda nisi
-          dolor molestias nihil adipisci pariatur eos molestiae earum dolores at
-          modi quibusdam! Ullam at nam laudantium exercitationem, alias harum
-          laborum incidunt ad tempore similique, est modi ducimus quasi?
-          Laboriosam voluptates eligendi omnis nisi mollitia porro, delectus
-          laborum quaerat deleniti inventore incidunt necessitatibus error,
-          asperiores unde! Doloribus voluptatibus, nemo impedit officiis
-          nesciunt mollitia. Vel quia dicta, explicabo incidunt est omnis alias
-          ipsam odit odio earum natus sequi ea aliquid nisi quasi hic. Libero
-          voluptate iste ullam sunt eaque nulla minima soluta a? Illum
-          recusandae ratione dolor in quia similique consequuntur aliquid
-          facilis aspernatur, iste velit doloribus labore a. Dolorum voluptas
-          omnis consequatur perferendis, corrupti ut eos temporibus eligendi ab
-          repellat aliquid possimus sit, maiores laborum, tempora doloribus
-          distinctio ad vero beatae quidem illum provident rerum vel deleniti.
-          Maxime, voluptates doloremque odio eius perspiciatis quasi tempora
-          facere dolorem et possimus rem! Atque fugiat aliquam molestiae ipsa
-          dicta beatae quis sit accusamus, veritatis eum, cumque quae provident
-          obcaecati sint saepe blanditiis, consequuntur molestias ullam ex iure.
-          Optio praesentium libero distinctio tempore, suscipit non? Repellat
-          quasi alias laudantium, commodi voluptas sunt quos quam, repudiandae
-          vel dolorem veniam reiciendis iusto dicta consequatur corrupti
-          laborum? Itaque labore facere illo deleniti consequuntur esse dolor
-          cum velit sapiente beatae debitis expedita exercitationem, quod
-          reprehenderit. Doloremque, voluptates dolores quis maxime velit ipsum
-          maiores cupiditate consequuntur ut eum laboriosam voluptate ad
-          voluptatibus porro ducimus itaque similique, optio natus totam cumque.
-          Ratione modi eligendi corrupti officiis vero corporis sunt!
+          Nous avons travaillé sur deux fronts. D'un côté l'interface graphique
+          et le site internet, de l'autre l'import des images et les fonctions
+          de modification de base de celles-ci.
+        </p>
+        <p>
+          Nous avons ensuite relié l'interface graphique aux fonctions
+          réalisées.
         </p>
       </div>
       <div className="liste-container" id="library">
@@ -186,40 +159,11 @@ export const Presentation = () => {
           Problèmes rencontrés lors de l'implémentation
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem id
-          obcaecati dolore esse voluptates sint similique tenetur possimus
-          consequuntur perferendis distinctio officiis temporibus incidunt culpa
-          vel, dolor amet harum odit nesciunt pariatur numquam qui vero?
-          Incidunt delectus velit beatae rerum molestiae, nostrum voluptates
-          itaque adipisci sapiente eius a, error blanditiis saepe reprehenderit.
-          Quidem quas et aspernatur facilis minus vero, velit assumenda nisi
-          dolor molestias nihil adipisci pariatur eos molestiae earum dolores at
-          modi quibusdam! Ullam at nam laudantium exercitationem, alias harum
-          laborum incidunt ad tempore similique, est modi ducimus quasi?
-          Laboriosam voluptates eligendi omnis nisi mollitia porro, delectus
-          laborum quaerat deleniti inventore incidunt necessitatibus error,
-          asperiores unde! Doloribus voluptatibus, nemo impedit officiis
-          nesciunt mollitia. Vel quia dicta, explicabo incidunt est omnis alias
-          ipsam odit odio earum natus sequi ea aliquid nisi quasi hic. Libero
-          voluptate iste ullam sunt eaque nulla minima soluta a? Illum
-          recusandae ratione dolor in quia similique consequuntur aliquid
-          facilis aspernatur, iste velit doloribus labore a. Dolorum voluptas
-          omnis consequatur perferendis, corrupti ut eos temporibus eligendi ab
-          repellat aliquid possimus sit, maiores laborum, tempora doloribus
-          distinctio ad vero beatae quidem illum provident rerum vel deleniti.
-          Maxime, voluptates doloremque odio eius perspiciatis quasi tempora
-          facere dolorem et possimus rem! Atque fugiat aliquam molestiae ipsa
-          dicta beatae quis sit accusamus, veritatis eum, cumque quae provident
-          obcaecati sint saepe blanditiis, consequuntur molestias ullam ex iure.
-          Optio praesentium libero distinctio tempore, suscipit non? Repellat
-          quasi alias laudantium, commodi voluptas sunt quos quam, repudiandae
-          vel dolorem veniam reiciendis iusto dicta consequatur corrupti
-          laborum? Itaque labore facere illo deleniti consequuntur esse dolor
-          cum velit sapiente beatae debitis expedita exercitationem, quod
-          reprehenderit. Doloremque, voluptates dolores quis maxime velit ipsum
-          maiores cupiditate consequuntur ut eum laboriosam voluptate ad
-          voluptatibus porro ducimus itaque similique, optio natus totam cumque.
-          Ratione modi eligendi corrupti officiis vero corporis sunt!
+          Nous avons eu des problèmes d'adaptation aux coordonnées d'images SDL.
+          La navigation de fichiers nous a aussi posé problème pour l'interface
+          graphique. Nous n'avons cependant pas rencontré de problèmes
+          nécessitant de grands ajustement au niveau du code ou du choix des
+          librairiies utilisées.
         </p>
       </div>
       <div className="liste-container" id="solution">
@@ -227,7 +171,10 @@ export const Presentation = () => {
           <FontAwesomeIcon icon={faTools} className="logo-liste" />
           Solutions envisagées pour ces problèmes
         </h3>
-        <p>Nous avons songé à utiliser la librairie lglib mais</p>
+        <p>
+          Nous avons résolu nos problèmes de coordonnées en effectuant des
+          recherches.
+        </p>
       </div>
       <div className="liste-container" id="goal">
         <h3>
@@ -246,6 +193,20 @@ export const Presentation = () => {
             accessibles par le menu déroulant du bouton de la fonctions associée
             sur l'interface graphique. Ainsi pour la bordure, l'utilisateur
             pourra sélectionner des options de bordures (solide, pointillé etc)
+          </li>
+          <li>Bouton de retour arrière (CTRL + Z)</li>
+          <li>
+            Améliorer le design de l’interface, la rendre plus agréable à l’œil
+          </li>
+          <li>Ne pas modifier l’image originale mais modifier une copie</li>
+          <li>
+            Commencer à réfléchir et à développer un système de sauvegarde pour
+            neplus modifier l’image originale
+          </li>
+          <li>Faire une fonction de détection des arêtes</li>
+          <li>
+            Etudier la possibilité de dessiner sur une image, ou d’y ajouter du
+            texte
           </li>
         </ul>
       </div>
