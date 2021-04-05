@@ -86,10 +86,8 @@ export const Documentation = () => {
             <h4 className="function">Saturation</h4>
             <p>Prototype : border(SDL_Surface *img)</p>
             <p>
-              Cette fonction permet d'appliquer un contour à l'image. Nous
-              proposerons des variantes de contour comme les pointillés. Il sera
-              aussi possible de sélectionner la largeur et la couleur du
-              contour.
+              Cette fonction permet de saturer l'image et donc d'intensifier les
+              couleurs présentes sur l'image.
             </p>
           </div>
         </div>
